@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Under Construction</title>
+        <vendor>Andres Olarte</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.8+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="appletfx-1.0.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Under Construction"
+         main-class="com.andresolarte.javafx.applet.ConstructionApplet"
+         width="600"
+         height="600">
+     </applet-desc>
+     <update check="background"/>
+</jnlp> 
