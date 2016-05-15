@@ -6,8 +6,20 @@
 </head>
 
 <body>
-<h1>Under Construction</h1>
 
+ <script src="https://www.java.com/js/deployJava.js"></script>
+    <script> 
+        var attributes = {
+            code:'com.andresolarte.javafx.applet.ConstructionApplet',  width:600, height:600} ; 
+        var parameters = {jnlp_href: 'construction.jnlp'} ; 
+        deployJava.runApplet(attributes, parameters, '1.8'); 
+    </script>
+<ul>
+    <li>Drag with the mouse to rotate the camera</li>
+    <li>Z key: Reset camera point of view</li>
+    <li>X key: Show/Hide XYZ axes</li>
+    <li>L key: Rotate text language</li>
+</ul>
 </body>
 
 </html>
